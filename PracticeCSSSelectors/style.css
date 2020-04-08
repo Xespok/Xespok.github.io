@@ -1,0 +1,20 @@
+.container, p   {
+    width:200px;
+}
+
+div {
+    font-weight: bold;
+}
+.b326 {
+    border:1px green solid;
+    }
+#b325 {
+    border:1px green solid;
+}
+.big {
+    color:blue;
+}
+p {
+    background:yellow;
+    font-weight: normal;
+}
