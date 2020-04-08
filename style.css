@@ -1,0 +1,122 @@
+/* Not yet complete, some formatting is missing in last paragraphs*/
+
+/* General rules for the whole page */
+
+main {
+  width:1280px;
+  margin: auto;
+  color:#222;
+  position:relative;
+}
+
+/* Containers */
+
+.ImageContainer {
+  width:1280px;
+  height:400px;
+}
+.TextBoxContainer {
+  max-width:1040px;
+  margin: auto;
+  text-align: center;
+  border:1px solid black;
+}
+
+/* The header image and its lines */
+
+#SkywalkerImage {
+  position:absolute;
+  width:1280px;
+}
+
+#HiMynameIs {
+  font-family: 'Abril Fatface', cursive;
+  font-weight:200;
+  font-size:42px;
+  position: absolute;
+  left: 290px;     
+  top: 200px; 
+
+}
+#AnakinSkywalker {
+  font-family: 'Abril Fatface', cursive;
+  font-weight: 200;
+  font-size:74px;
+  position: absolute;
+  left: 290px;
+  text-align: left;
+  top: 225px;   
+}
+
+
+.TextSection{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 100;
+  font-family: 'Josefin Sans';
+  color:  #222222;
+}
+.TextStyle1{
+  font-size: 22px;
+}
+
+/* lists */
+
+ul {
+  list-style-type: square;
+  font-size: 16px;
+}
+
+#LargeSizeList {
+  font-size: 22px;
+}
+
+blockquote {
+  width: 75%;
+  color: white;
+  background:#222;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 51px;
+  font-weight: 300;
+  text-align:left;
+  padding: 50px 50px 50px 50px;
+  position:relative;
+  margin-top: 50px;
+  margin-left:80px;
+}
+blockquote::before {
+  content: open-quote;
+  quotes:'\201C' '\201D';
+  font-size: 300%;
+  position:absolute;
+  top: -40px;
+  left: 0px;
+}
+
+hr { 
+  position: relative;
+  top: 20px; 
+  border: none; 
+  height: 4px; 
+  background: black; 
+  margin-bottom: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+} 
+
+h4 {
+  text-transform: uppercase;
+  font-size: 26px;
+}
+h5{
+  font-size: 26px;
+}
+
+
+.ParagraphStyle1
+{
+  list-style-type: none;
+  font-size: 16px;
+}
